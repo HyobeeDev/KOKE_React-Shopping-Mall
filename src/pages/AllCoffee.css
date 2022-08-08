@@ -1,0 +1,237 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none;}
+
+
+
+/* common */
+.align1434px {
+  width: 1434px;
+  margin: 0 auto;
+}
+
+/* path */
+.path {
+  padding-top: 120px;
+}
+.path li {
+  display: inline-block;
+}
+.path_link {
+  font-size: 13px;
+  color: #777;
+}
+.path_link em {
+  color: #ccc;
+  margin: 0 5px;
+}
+.path_link span {
+  font-size: 15px;
+  vertical-align: middle;
+  color: #777;
+  margin-right: 3px;
+}
+
+/* title */
+.title {
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+
+
+/*-----------------selection-------------------*/
+.selection_outer {
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #f1f1f1;
+}
+.selection {
+  /* padding: 30px 0; */
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+.selection li {
+  padding: 0 50px;
+  border-right: 1px solid #efefef;
+  box-sizing: border-box;
+}
+.selection li:last-child {
+  border-right: none;
+}
+.sel--category {
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+.sel--tag {
+  display: block;
+  font-size: 13px;
+  color: #777;
+  padding: 2px 5px;
+  border: 1px solid #efefef;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+}
+.selection li:nth-child(2) .sel--tag,
+.selection li:nth-child(4) .sel--tag {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+.selection li:nth-child(2)>div>span:last-child,
+.selection li:nth-child(4)>div>span:last-child {
+  margin: 0;
+}
+.tag--active {
+  color: #FF6C57;
+  border: 1px solid #FF6C57;
+}
+.sel--btn {
+  position: absolute;
+  bottom: -33px; left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 5px 20px 7px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  border-radius: 0 0 20px 20px;
+  cursor: pointer;
+}
+
+
+
+/*-----------------filter-------------------*/
+.filter {text-align: right;}
+.filter li {
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 13px;
+  margin-left: 10px;
+  color: #777;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.filter li:hover {
+  color: black;
+}
+.filter li:first-child {
+  color: black;
+  font-weight: 500;
+}
+
+
+
+/*-----------------coffee_items-------------------*/
+.coffee_items {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+}
+.coffee_item {
+  width: 336px;
+  margin-top: 60px;
+  border: 1px solid transparent;
+  box-sizing: border-box; 
+}
+.coffee_item:hover .item__img>img {
+  transform: scale(115%);
+}
+.coffee_item:hover .tools {
+  transform: translateY(80%);
+
+}
+.item_img_container {
+  display: block;
+  overflow: hidden;
+}
+.item__img {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.item__img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all .3s ease;
+}
+.item__info {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+.item--logo {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #efefef;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.item--logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tools {
+  text-align: right;
+  transform: translateY(210%);
+  transition: all .3s ease;
+}
+.tools span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #777;
+  padding: 8px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .1);
+  transition: all .3s ease;
+  margin-top: 5px;
+}
+.tools span:hover {
+  color: #FF6C57;
+  background-color: #FDEAE0;
+}
+.tools span:active {
+  color: white;
+  background-color: #FF6C57;
+}
+
+.item__txts {
+  text-align: center;
+}
+.item__txts li:nth-child(1) {
+  font-size: 17px;
+}
+.item__txts li:nth-child(2) {
+  font-size: 15px;
+  color: #777;
+  margin: 5px 0 10px 0;
+}
+.item__txts li:nth-child(3) {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+
+/*-----------------path-------------------*/
+/*-----------------path-------------------*/
