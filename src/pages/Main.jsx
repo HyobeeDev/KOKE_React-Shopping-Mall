@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Swiper, SwiperSlide, Pagination } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './Main.css';
