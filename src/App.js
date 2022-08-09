@@ -1,6 +1,5 @@
-// import logo from './logo.svg';
 import './App.css';
-import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import styled from 'styled-components';
 import Main from './pages/Main';
 import AllCoffee from './pages/AllCoffee';

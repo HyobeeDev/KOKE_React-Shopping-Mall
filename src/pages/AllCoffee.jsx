@@ -5,45 +5,6 @@ import './AllCoffee.css';
 
 export default function AllCoffee() {
 
-
-  // // selection 열고 닫기 
-  // let isOpen = false
-  // let selectBtn = document.querySelector('.sel--btn')
-  // let selectOpt = document.querySelector('.selection')
-
-  // selectBtn.addEventListener('click', () => {
-  //   if(isOpen ===false) {
-  //     selectOpt.style.height = '280px'
-  //     isOpen = true
-  //   } else {
-  //     selectOpt.style.height = '0px'
-  //     isOpen = false
-  //   }
-  // })
-
-  // // selection tag들 선택 온&오프
-  // let isSelect = false
-  // let selectTags = document.querySelectorAll('.sel--tag')
-
-  // for(const selectTag of selectTags) {
-  //   selectTag.addEventListener('click', function() {
-  //     if(isSelect === false) {
-  //       this.style.color = '#ff6c57'
-  //       this.style.border = '1px solid #ff6c57'
-  //       isSelect = true
-  //       // this.classNameList.add('tag--active')
-  //       // this.classNameList.toggle('tag--active', true)
-  //   } else {
-  //       this.style.color = '#777'
-  //       this.style.border = '1px solid #efefef'
-  //       isSelect = false
-  //       // this.classNameList.add('tag--active')
-  //       // this.classNameList.toggle('tag--active', false)
-  //   }
-  //   })
-  // }
-
-
   const Items = [
     {
       id: 'Item01',
